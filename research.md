@@ -6,9 +6,9 @@ layout: default
 
 I am currently a Member of Technical Staff at [Flourish Labs](). 
 
-Previously I worked on LLM pretraining, post training, and retrieval on the Mosaic research team at Databricks. 
+Previously I worked on LLM pretraining, post training, agentic search/retrieval, and evals at Databricks Research. 
 
-Some projects while at Databricks include ["Long Context RAG Performance of Large Language Models"](https://arxiv.org/pdf/2411.03538) (NeurIPS 2024 workshop) with Quinn Leng, ["LoRA Learns Less and Forgets Less"](https://arxiv.org/abs/2405.09673) (TMLR 2024, ICLR 2025) with [Dan Biderman](https://dan-biderman.netlify.app/), ["Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws"](https://openreview.net/forum?id=0bmXrtTDUu) (ICML 2024) with Nikhil Sardana, and ["LIMIT: Less Is More for Instruction Tuning Across Evaluation Paradigms"](https://arxiv.org/abs/2311.13133) (NeurIPS 2023 Workshop) with [Aditi Jha](https://aditijha7.com/). 
+Some projects while at Databricks include [OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning](https://arxiv.org/abs/2603.08655), [KARL: Knowledge Agents via Reinforcement Learning](https://arxiv.org/abs/2603.05218), ["LoRA Learns Less and Forgets Less"](https://arxiv.org/abs/2405.09673) (TMLR 2024, ICLR 2025) with [Dan Biderman](https://dan-biderman.netlify.app/), and ["Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws"](https://openreview.net/forum?id=0bmXrtTDUu) (ICML 2024) with Nikhil Sardana.
 
 As a Research Scientist at MosaicML, I was part of the team that pretrained and finetuned the open-source large language models [MPT-7B](https://www.mosaicml.com/blog/mpt-7b) and [MPT-30B](https://www.mosaicml.com/blog/mpt-30b) at the dawn of the ChatGPT era and [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) (see this fun story about how we were open weights SOTA for ~3 weeks!: [Inside the Creation of the World’s Most Powerful Open Source AI Model](https://www.wired.com/story/)) 
 
@@ -16,19 +16,30 @@ Back when the MosaicML NLP team consisted of only 9 researchers, we did some wor
 
 This [talk by Jonathan Frankle](https://www.youtube.com/watch?v=HBHeYNlNPIw) gives an overview of some of MosaicML's early days.
 
-**Selected LLM Papers & Blog Posts**
+**Selected LLM Papers & Technical Blog Posts**
 
-- **2026** — [OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning](https://arxiv.org/abs/2603.08655)
-- **2026** — [KARL: Knowledge Agents via Reinforcement Learning](https://arxiv.org/abs/2603.05218)
-- **2025** — [Retrieval Capabilities of Large Language Models Scale with Pretraining FLOPs](https://arxiv.org/abs/2508.17400)
-- **2024** — [Long Context RAG Performance of Large Language Models](https://arxiv.org/abs/2411.03538)
-- **2024** — [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673)
-- **2024** — [Introducing DBRX: A New State-of-the-Art Open LLM](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) (see this fun story: [Inside the Creation of the World’s Most Powerful Open Source AI Model](https://www.wired.com/story/dbrx-inside-the-creation-of-the-worlds-most-powerful-open-source-ai-model/))
-- **2024** — [Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws](https://arxiv.org/abs/2401.00448)
-- **2023** — [LIMIT: Less Is More for Instruction Tuning Across Evaluation Paradigms](https://arxiv.org/abs/2311.13133)
-- **2023** — [MosaicBERT: A Bidirectional Encoder Optimized for Fast Pretraining](https://openreview.net/forum?id=5zipcfLC2Z)
-- **2023** — [MPT-30B: Raising the Bar for Open-Source Foundation Models](https://www.mosaicml.com/blog/mpt-30b)
-- **2023** — [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b)
+- **2026** — [OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning](https://arxiv.org/abs/2603.08655)<br>
+  Krista Opsahl-Ong, Arnav Singhvi, Jasmine Collins, Ivan Zhou, Cindy Wang, Ashutosh Baheti, Owen Oertell, **Jacob Portes**, et al. *arXiv preprint*.
+- **2026** — [KARL: Knowledge Agents via Reinforcement Learning](https://arxiv.org/abs/2603.05218)<br>
+  Jonathan D. Chang, Andrew Drozdov, Shubham Toshniwal, Owen Oertell, Alexander Trott, **Jacob Portes**, et al. *arXiv preprint*.
+- **2025** — [Retrieval Capabilities of Large Language Models Scale with Pretraining FLOPs](https://arxiv.org/abs/2508.17400)<br>
+  **Jacob Portes**, Connor Jennings, Erica Ji Yuen, Sasha Doubov, Michael Carbin *arXiv preprint*.
+- **2024** — [Long Context RAG Performance of Large Language Models](https://arxiv.org/abs/2411.03538)<br>
+  Quinn Leng\*, **Jacob Portes**\*, Sam Havens, Matei Zaharia, Michael Carbin *(NeurIPS Workshop)*.
+- **2024** — [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673)<br>
+  Dan Biderman, **Jacob Portes**, Jose Javier Gonzalez Ortiz, Mansheej Paul, Philip Greengard, et al. *(TMLR)*.
+- **2024** — [Introducing DBRX: A New State-of-the-Art Open LLM](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm)<br>
+  Mosaic Research Team.
+- **2024** — [Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws](https://arxiv.org/abs/2401.00448)<br>
+  Nikhil Sardana, **Jacob Portes**, Sasha Doubov, Jonathan Frankle *(ICML)*.
+- **2023** — [LIMIT: Less Is More for Instruction Tuning Across Evaluation Paradigms](https://arxiv.org/abs/2311.13133)<br>
+  Aditi Jha, Sam Havens, Jeremy Dohmann, Alex Trott, **Jacob Portes**. *(NeurIPS Workshop)*.
+- **2023** — [MosaicBERT: A Bidirectional Encoder Optimized for Fast Pretraining](https://proceedings.neurips.cc/paper_files/paper/2023/hash/095a6917768712b7ccc61acbeecad1d8-Abstract-Conference.html)<br>
+  **Jacob Portes**\*, Alexander Trott\*, Sam Havens, Daniel King, Abhinav Venigalla, Moin Nadeem, Nikhil Sardana, Daya Khudia, Jonathan Frankle *(NeurIPS)*.
+- **2023** — [MPT-30B: Raising the Bar for Open-Source Foundation Models](https://www.mosaicml.com/blog/mpt-30b)<br>
+  MosaicML NLP Team.
+- **2023** — [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b)<br>
+  MosaicML NLP Team.
 
 
 
