@@ -11,7 +11,7 @@ html {
 }
 body {
     margin: 0 auto;
-    font-family: 'Raleway';
+    font-family: 'Source Sans 3', sans-serif;
     font-size: 18px;
     position: relative;
     font-weight: 400;
@@ -24,6 +24,29 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 28px;
+}
+
+a.profile-link {
+    border: 1px solid $accent;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 15px;
+    line-height: 1;
+}
+
+a.profile-link:hover,
+a.profile-link:focus {
+    background-color: $accent;
+    color: white;
+    text-decoration: none;
+}
+
 hr {
     border: 0;
     height: 0;
