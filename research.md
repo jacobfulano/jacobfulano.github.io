@@ -4,15 +4,15 @@ layout: default
 
 # LLM Research
 
-I am currently a Member of Technical Staff at [Flourish Labs](). 
+I am currently a Member of Technical Staff at [Flourish Labs](flourishlabs.ai). 
 
-Previously I worked on LLM pretraining, post training, agentic search/retrieval, and evals at Databricks Research. 
+Previously I worked on LLM pretraining, post training, agentic search/retrieval, and evals at Databricks Research (2023-2026). 
 
-Some projects while at Databricks include 
+Some fun research projects at Databricks included: 
 - [OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning](https://arxiv.org/abs/2603.08655)
 - [KARL: Knowledge Agents via Reinforcement Learning](https://arxiv.org/abs/2603.05218)
 - [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673) (TMLR 2024, ICLR 2025) with [Dan Biderman](https://dan-biderman.netlify.app/)
-- [Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws](https://openreview.net/forum?id=0bmXrtTDUu) (ICML 2024) with Nikhil Sardana
+- [Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws](https://openreview.net/forum?id=0bmXrtTDUu) (ICML 2024) with [Nikhil Sardana](https://nikhilsardana.github.io/)
 - [DBRX, an open weights 132B/36B MoE](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm). See this fun Wired article about how we were open weights SOTA for ~3 weeks before Llama 3 was released!: [Inside the Creation of the World’s Most Powerful Open Source AI Model](https://www.wired.com/story/dbrx-inside-the-creation-of-the-worlds-most-powerful-open-source-ai-model/?via=dailydev)
 
 As a Research Scientist at MosaicML (2021 - 2023), I was part of the team that pretrained and finetuned the open-source large language models [MPT-7B](https://www.mosaicml.com/blog/mpt-7b) and [MPT-30B](https://www.mosaicml.com/blog/mpt-30b) at the dawn of the ChatGPT era.
@@ -21,7 +21,7 @@ Back when the MosaicML NLP team consisted of only 9 researchers, we did some wor
 
 This [talk by Jonathan Frankle](https://www.youtube.com/watch?v=HBHeYNlNPIw) gives an overview of some of MosaicML's early days.
 
-**Selected LLM Papers & [Technical Blog Posts](https://www.databricks.com/blog/author/jacob-portes)**
+**Selected LLM [Papers](https://scholar.google.com/citations?hl=en&user=CzH4cSEAAAAJ) & [Technical Blog Posts](https://www.databricks.com/blog/author/jacob-portes)**
 
 - **2026** — [OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning](https://arxiv.org/abs/2603.08655)<br>
   Krista Opsahl-Ong, Arnav Singhvi, Jasmine Collins, Ivan Zhou, Cindy Wang, Ashutosh Baheti, Owen Oertell, **Jacob Portes**, Sam Havens, Erich Elsen, Michael Bendersky, Matei Zaharia, Xing Chen. *(arXiv preprint)*.

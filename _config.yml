@@ -21,3 +21,5 @@ nav:
    link: '/'
  - name: "Research"
    link: "/research"
+ - name: "Blog"
+   link: "/blog"
