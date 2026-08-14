@@ -8,7 +8,11 @@ I am currently a Member of Technical Staff at [Flourish Labs]().
 
 Previously I worked on LLM pretraining, post training, agentic search/retrieval, and evals at Databricks Research. 
 
-Some projects while at Databricks include [OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning](https://arxiv.org/abs/2603.08655), [KARL: Knowledge Agents via Reinforcement Learning](https://arxiv.org/abs/2603.05218), ["LoRA Learns Less and Forgets Less"](https://arxiv.org/abs/2405.09673) (TMLR 2024, ICLR 2025) with [Dan Biderman](https://dan-biderman.netlify.app/), and ["Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws"](https://openreview.net/forum?id=0bmXrtTDUu) (ICML 2024) with Nikhil Sardana.
+Some projects while at Databricks include 
+- [OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning](https://arxiv.org/abs/2603.08655)
+- [KARL: Knowledge Agents via Reinforcement Learning](https://arxiv.org/abs/2603.05218)
+- [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673) (TMLR 2024, ICLR 2025) with [Dan Biderman](https://dan-biderman.netlify.app/)
+- [Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws](https://openreview.net/forum?id=0bmXrtTDUu) (ICML 2024) with Nikhil Sardana
 
 As a Research Scientist at MosaicML, I was part of the team that pretrained and finetuned the open-source large language models [MPT-7B](https://www.mosaicml.com/blog/mpt-7b) and [MPT-30B](https://www.mosaicml.com/blog/mpt-30b) at the dawn of the ChatGPT era and [DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) (see this fun story about how we were open weights SOTA for ~3 weeks!: [Inside the Creation of the World’s Most Powerful Open Source AI Model](https://www.wired.com/story/)) 
 
@@ -16,18 +20,20 @@ Back when the MosaicML NLP team consisted of only 9 researchers, we did some wor
 
 This [talk by Jonathan Frankle](https://www.youtube.com/watch?v=HBHeYNlNPIw) gives an overview of some of MosaicML's early days.
 
-**Selected LLM Papers & Technical Blog Posts**
+**Selected LLM Papers & [Technical Blog Posts](https://www.databricks.com/blog/author/jacob-portes)**
 
 - **2026** — [OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning](https://arxiv.org/abs/2603.08655)<br>
-  Krista Opsahl-Ong, Arnav Singhvi, Jasmine Collins, Ivan Zhou, Cindy Wang, Ashutosh Baheti, Owen Oertell, **Jacob Portes**, et al. *arXiv preprint*.
+  Krista Opsahl-Ong, Arnav Singhvi, Jasmine Collins, Ivan Zhou, Cindy Wang, Ashutosh Baheti, Owen Oertell, **Jacob Portes**, Sam Havens, Erich Elsen, Michael Bendersky, Matei Zaharia, Xing Chen. *(arXiv preprint)*.
 - **2026** — [KARL: Knowledge Agents via Reinforcement Learning](https://arxiv.org/abs/2603.05218)<br>
-  Jonathan D. Chang, Andrew Drozdov, Shubham Toshniwal, Owen Oertell, Alexander Trott, **Jacob Portes**, et al. *arXiv preprint*.
+  Jonathan D. Chang, Andrew Drozdov, Shubham Toshniwal, Owen Oertell, Alexander Trott, **Jacob Portes**, Abhay Gupta, Pallavi Koppol, Ashutosh Baheti, Sean Kulinski, Ivan Zhou, Irene Dea, Krista Opsahl-Ong, Simon Favreau-Lessard, Sean Owen, Jose Javier Gonzalez Ortiz, Arnav Singhvi, Xabi Andrade, Cindy Wang, Kartik Sreenivasan, Sam Havens, Jialu Liu, Peyton DeNiro, Wen Sun, Michael Bendersky, Jonathan Frankle. *(arXiv preprint)*.
 - **2025** — [Retrieval Capabilities of Large Language Models Scale with Pretraining FLOPs](https://arxiv.org/abs/2508.17400)<br>
-  **Jacob Portes**, Connor Jennings, Erica Ji Yuen, Sasha Doubov, Michael Carbin *arXiv preprint*.
+  **Jacob Portes**, Connor Jennings, Erica Ji Yuen, Sasha Doubov, Michael Carbin *(NeurIPS Workshop)*.
+- **2025** - [Improving Retrieval and RAG with Embedding Model Finetuning](https://www.databricks.com/blog/improving-retrieval-and-rag-embedding-model-finetuning) <br>
+  **Jacob Portes**, Andrew Drozdov, Erica Ji Yuen, Vincent Chen, Sean Kulinski, Milo Cress, Colton Peltier, Sam Havens, Michael Carbin, Vitaliy Chiley and Connor Jennings
 - **2024** — [Long Context RAG Performance of Large Language Models](https://arxiv.org/abs/2411.03538)<br>
   Quinn Leng\*, **Jacob Portes**\*, Sam Havens, Matei Zaharia, Michael Carbin *(NeurIPS Workshop)*.
 - **2024** — [LoRA Learns Less and Forgets Less](https://arxiv.org/abs/2405.09673)<br>
-  Dan Biderman, **Jacob Portes**, Jose Javier Gonzalez Ortiz, Mansheej Paul, Philip Greengard, et al. *(TMLR)*.
+  Dan Biderman, **Jacob Portes**, Jose Javier Gonzalez Ortiz, Mansheej Paul, Philip Greengard, Connor Jennings, Daniel King, Sam Havens, Vitaliy Chiley, Jonathan Frankle, Cody Blakeney, John P. Cunningham. *(TMLR)*.
 - **2024** — [Introducing DBRX: A New State-of-the-Art Open LLM](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm)<br>
   Mosaic Research Team.
 - **2024** — [Beyond Chinchilla-Optimal: Accounting for Inference in Language Model Scaling Laws](https://arxiv.org/abs/2401.00448)<br>
@@ -40,6 +46,8 @@ This [talk by Jonathan Frankle](https://www.youtube.com/watch?v=HBHeYNlNPIw) giv
   MosaicML NLP Team.
 - **2023** — [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b)<br>
   MosaicML NLP Team.
+- **2022** — [Fast Benchmarking of Accuracy vs. Training Time with Cyclic Learning Rates](https://arxiv.org/abs/2206.00832)<br>
+  **Jacob Portes**, Davis Blalock, Cory Stephenson, Jonathan Frankle *(NeurIPS Workshop)*.
 
 
 
